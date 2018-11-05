@@ -1,0 +1,13 @@
+body { 
+/*    padding-top: 70px; */
+}
+
+.jumbotron {
+    background: 
+        linear-gradient(
+          rgba(255, 255, 255, 0.45), 
+          rgba(255, 255, 255, 0.95)
+        ),
+        url(img/gob.png) center no-repeat;
+    height: 70vh;
+}
