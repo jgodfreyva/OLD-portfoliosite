@@ -11,3 +11,15 @@ body {
         url(img/gob.png) center no-repeat;
     height: 70vh;
 }
+
+
+nav .navbar-inverse {
+    background-color: #fff;
+    
+}
+
+    & .navbar-brand {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+    }
