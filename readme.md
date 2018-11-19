@@ -1,5 +1,8 @@
 ## Building my portfolio to practice bootstrap and git :nerd_face:
 
+Follow along as I plug away via my [project log](project-log.txt).
+
+
 ### Colors:
 * #FDD692 Peachy
 * #FC5117 Bird Orange
