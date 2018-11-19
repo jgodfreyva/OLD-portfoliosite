@@ -7,5 +7,5 @@
 * #475AA5 Blue Grandma
 * #344279 Denim
 
-**Img for reference:**
+### Color img for reference:**
 ![Alt text](img/colors-nobg.png)
