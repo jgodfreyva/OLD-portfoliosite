@@ -5,4 +5,6 @@
 * #FC5117 Bird Orange
 * #475AA5 Blue Grandma
 * #344279 Denim
-* #F9F4ED Off-White
+* #F9F4ED Egg
+
+![Alt text](img/colors.png)
