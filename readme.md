@@ -8,4 +8,4 @@
 * #344279 Denim
 
 **Img for reference:**
-![Alt text](img/colors.png)
+![Alt text](img/colors-nobg.png)
