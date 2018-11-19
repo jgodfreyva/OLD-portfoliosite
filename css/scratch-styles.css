@@ -1,19 +1,28 @@
 body { 
 /*    padding-top: 70px; */
     min-height: 1800px;
+    background-color: #F9F4ED;
+}
+
+h2 {
+    color: #344279;
 }
 
 h3 {
-    line-height: 100%;
+    line-height: 50%;
     font-size: 18px;
     color: #FDD692;
+}
+
+p {
+    color: #344279;
 }
 
 .thenav {
     background-color: #FC5129;
     border: none;
     max-height: 50px;
-
+    
 /*
     & .navbar-brand {
         display: inline-block;
@@ -37,4 +46,4 @@ container .projects {
 }
 
 
-    
+
