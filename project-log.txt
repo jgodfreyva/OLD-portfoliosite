@@ -1,0 +1,8 @@
+Keeping Track of What I Did – 
+
+Sun Nov 18, 2018
+- Fixed the nav line-height
+- Made a readme and learned about readme markdown
+- Nailed the colors down and made a fun visual reference for the readme
+- Ooh and I made a custom terminal profile and it’s dope!
+– Also customized my .bash_profile to highlight the prompt. It’s much easier to read now.
