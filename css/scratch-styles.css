@@ -1,29 +1,40 @@
 body { 
 /*    padding-top: 70px; */
+    min-height: 1800px;
 }
 
-.jumbotron {
-/*    height: 70vh;*/
+h3 {
+    line-height: 100%;
+    font-size: 18px;
+    color: #FDD692;
 }
 
-
-nav .navbar .navbar-inverse {
+.thenav {
     background-color: #FC5129;
-    
-}
+    border: none;
+    max-height: 50px;
 
+/*
     & .navbar-brand {
         display: inline-block;
         background-color: #FC5129;
         position: relative;
         width: 40px;
     }
-
-
-container {
-    & .projects {
-        margin-bottom: 100px; 
-    }
+*/
 }
+
+.jumbotron {
+    height: 70vh;
+}
+
+.btnprimary {
+    color: #Fff;
+}
+
+container .projects {
+        padding-bottom: 100px; 
+}
+
 
     

@@ -1,0 +1,29 @@
+body { 
+/*    padding-top: 70px; */
+}
+
+.jumbotron {
+/*    height: 70vh;*/
+}
+
+
+nav .navbar .navbar-inverse {
+    background-color: #FC5129;
+    
+}
+
+    & .navbar-brand {
+        display: inline-block;
+        background-color: #FC5129;
+        position: relative;
+        width: 40px;
+    }
+
+
+container {
+    & .projects {
+        margin-bottom: 100px; 
+    }
+}
+
+    

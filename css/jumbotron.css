@@ -8,6 +8,7 @@ body {
 
 .jumbotron{
     background-color: #FC5129;
+/*    padding-top: 60px;*/
 }
 
 
@@ -29,6 +30,11 @@ body {
     border: none;
     color: #FC5129;
     box-shadow: 2px 2px 2px #FC512980;
+}
+
+.btn:hover {
+    background-color: #2B60C4;
+    color: #FC5129;
 }
 
 .btn-primary {
