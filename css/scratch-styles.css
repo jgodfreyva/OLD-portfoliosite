@@ -41,8 +41,8 @@ p {
     color: #F9F4ED;
 }
 
-container .projects {
-        padding-bottom: 100px; 
+.project {
+    padding: 60px 40px; 
 }
 
 
