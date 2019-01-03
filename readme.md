@@ -11,4 +11,4 @@ Follow along as I plug away via my [project log](project-log.txt).
 * #344279 Denim
 
 ### Color img for reference:
-![Alt text](img/colors-nobg-smaller.png)
+![Alt text](img/colors-nobg-smaller.jpg)
