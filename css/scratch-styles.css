@@ -2,6 +2,7 @@ body {
 /*    padding-top: 70px; */
     min-height: 1800px;
     background-color: #F9F4ED;
+    font-family: Futura;
 }
 
 h2 {
@@ -9,9 +10,28 @@ h2 {
 }
 
 h3 {
-    line-height: 50%;
+    color: #344279;
+    line-height: 140%;
+    margin-top: 15px;
+}
+
+h4 {
+    line-height: 150%;
     font-size: 18px;
     color: #FDD692;
+}
+
+h6 {
+    font-size: 15px;
+    color: #475aa5;
+}
+
+.til-date {
+    background-color: white;
+    padding: 5px 20px 5px 80px;
+    margin-left: -80px;
+    border-radius: 0px 15px 15px 0px;
+    line-height: 200%;
 }
 
 p {
@@ -45,5 +65,33 @@ p {
     padding: 60px 40px; 
 }
 
+/* TIL Today I Learned Page */
 
+.til {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.til h1 {
+        color: #475aa5;
+}
+
+.well {
+    padding: 30px 80px 50px;
+    background-color: #fdd69270;
+    border: solid 3px #475aa5;
+    border-radius: 10px;
+}
+
+.well a {
+    color: #fc5117;
+/*    text-decoration: underline;*/
+    border-bottom: dashed 3px;
+}
+
+.well a:hover {
+    text-decoration: none;
+    font-style: italic;
+    
+}
 
