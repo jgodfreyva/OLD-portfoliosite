@@ -1,4 +1,4 @@
-# Building my portfolio to practice bootstrap and git :nerd_face:
+# Building my portfolio to practice bootstrap and git  :nerd_face:
 
 Follow along as I plug away via my [project log](project-log.txt).
 
@@ -11,4 +11,4 @@ Follow along as I plug away via my [project log](project-log.txt).
 * #344279 Denim
 
 ### Color img for reference:
-![Alt text](img/colors-nobg.png)
+![Alt text](img/colors-nobg-smaller.png)

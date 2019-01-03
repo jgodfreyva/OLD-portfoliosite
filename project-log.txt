@@ -1,5 +1,17 @@
 Keeping Track of What I Did – 
 
+Wed Jan 2, 2019
+- Happy New Year!
+- 
+
+December 2018
+- Did absolutely nuuuuthin' on this because I moved from the District to Del Ray, Alexandria, VA. And then the holidays happened. Excited to get back to it on this.
+
+Sat Nov 24, 2018
+- Fixed the project columns and refined padding
+- Changed the hero intro text
+- Made some progress on the nav – it shows links now on desktop but haven't figured out how to get them to show in the mobile dropdown menu. 
+
 Sun Nov 18, 2018
 - Fixed the nav line-height
 - Made a readme and learned about readme markdown
