@@ -1,8 +1,9 @@
 Keeping Track of What I Did – 
 
 Wed Jan 2, 2019
-- Happy New Year!
-- 
+- Happy New Year! Finally got some good work in --
+- Created a couple of new pages
+- Started building the TIL (Today I Learned) page and made my first post using a bootstrap well. Styling that was pretty fun. 
 
 December 2018
 - Did absolutely nuuuuthin' on this because I moved from the District to Del Ray, Alexandria, VA. And then the holidays happened. Excited to get back to it on this.
