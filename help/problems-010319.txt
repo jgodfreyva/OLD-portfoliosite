@@ -1,0 +1,7 @@
+Nav – losing links on mobile and no menu button at all?
+
+Responsiveness on project columns? 
+
+I feel like I’m not using the & css stuff right? So I’m trying to avoid using it and thus making a mess of the css.
+
+And then big thing – What’s the best way to do TIL posts?
