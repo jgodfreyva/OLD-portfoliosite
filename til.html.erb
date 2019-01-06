@@ -73,6 +73,12 @@
             <h6><span class="til-date">Wed Jan 2, 2019</span></h6>
             <h3>Today I dug into Loretta Lynn's tunes. What a incredible musician. Learned that she got married at 15 and had 4 kids by the time she was 20. She went on to become the most awarded female artist in country music but radio stations used to regularly ban her songs because they were too controversial. <a href="https://youtu.be/ROA4ha9f09w?t=200" target="_blank">Hats off to you, Loretta.</a></h3>
         </div>
+        
+        <% @array.each do |row| %>
+            <div class="well">
+            <h6><span class="til-date">row[1]</span></h6>
+            <h3><%= row[0] %></h3>
+        <% end %>
     </div>
 
       
