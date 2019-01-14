@@ -1,5 +1,11 @@
 Keeping Track of What I Did – 
 
+Sun Jan 13, 2019
+- So I rebuilt the nav and it's sooo much better. Like night and day. I didn't have to do as much styling this time around either. I also converted the colors in my css over to variables (i.e. custom properties) for easier management in the future. 
+
+Sun Jan 6, 2019
+- Got some help from my friend slash old coworker, Paul. He helped me fix my nav's collapse problem (I didn't have the js hooked up - shoot!) and advised me to just rebuild the darn thing (wise advice), among a few other things. Thanks for the help, Paul!
+
 Wed Jan 2, 2019
 - Happy New Year! Finally got some good work in --
 - Created a couple of new pages
