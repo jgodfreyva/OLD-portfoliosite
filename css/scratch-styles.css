@@ -1,16 +1,24 @@
+:root {
+    --peachy: #fdd692;
+    --birdorange: #fc5117;
+    --egg: #f9f4ed;
+    --bluegrandma: #475aa5;
+    --denim: #344279;
+}
+    
 body { 
-/*    padding-top: 70px; */
+    padding-top: 0px; 
     min-height: 1800px;
-    background-color: #F9F4ED;
+    background-color: var(--egg);
     font-family: Futura;
 }
 
 h2 {
-    color: #344279;
+    color: var(--denim);
 }
 
 h3 {
-    color: #344279;
+    color: var(--denim);
     line-height: 140%;
     margin-top: 15px;
 }
@@ -18,12 +26,16 @@ h3 {
 h4 {
     line-height: 150%;
     font-size: 18px;
-    color: #FDD692;
+    color: var(--peachy);
 }
 
 h6 {
     font-size: 15px;
-    color: #475aa5;
+    color: var(--bluegrandma);
+}
+
+.hero {
+    padding-top: 25px;
 }
 
 .til-date {
@@ -35,13 +47,14 @@ h6 {
 }
 
 p {
-    color: #344279;
+    color: var(--denim);
 }
 
-.thenav {
-    background-color: #FC5129;
+.navbar-default {
+    background-color: var(--birdorange);
     border: none;
-    max-height: 50px;
+    margin-bottom: 0;
+    border-radius: 0px;
     
 /*
     & .navbar-brand {
@@ -53,12 +66,38 @@ p {
 */
 }
 
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: var(--denim);
+}
+
+.active a {
+    color: var(--peachy) !important;
+/*    text-decoration: underline;*/
+    background-color: var(--birdorange) !important;
+    border-bottom: dotted 5px var(--peachy);
+    border-bottom-width: 10%;
+}
+
+.active a:hover {
+    color: white !important;
+    border-bottom: dashed 5px var(--bluegrandma);
+    border-bottom-width: 25%;
+}
+
 .jumbotron {
     height: 70vh;
 }
 
 .btnprimary {
-    color: #F9F4ED;
+    color: var(--egg);
 }
 
 .project {
@@ -73,7 +112,7 @@ p {
 }
 
 .til h1 {
-        color: #475aa5;
+        color: var(--bluegrandma);
 }
 
 .well {
@@ -84,14 +123,13 @@ p {
 }
 
 .well a {
-    color: #fc5117;
+    color: var(--birdorange);
 /*    text-decoration: underline;*/
     border-bottom: dashed 3px;
 }
 
 .well a:hover {
     text-decoration: none;
-    font-style: italic;
-    
+    font-style: italic;   
 }
 
