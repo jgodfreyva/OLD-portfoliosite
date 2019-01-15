@@ -71,22 +71,26 @@ p {
     color: white;
 }
 
+.navbar-default .navbar-brand:hover {
+    background-color: var(--peachy) !important;
+    color: var(--birdorange);
+}
+
 .navbar-default .navbar-nav li a {
     color: white;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: var(--denim);
+    background-color: var(--peachy) !important;
+    color: var(--birdorange);
+    border-bottom: inset 5px var(--peachy); 
+    box-shadow: 0px 5px var(--birdorange);
 }
 
 .active a {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
     border-bottom: inset 5px var(--peachy);
-}
-
-.navbar-default .navbar-nav li.active:after {
-
 }
 
 .active a:hover {
