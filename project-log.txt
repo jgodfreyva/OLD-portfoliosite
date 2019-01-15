@@ -1,6 +1,7 @@
 Keeping Track of What I Did – 
 
 Mon Jan 14, 2019
+- Fixed some typos, removed a superfluous class, and got stuck in a huge wormhole on styling my active nav link. I kept running into the problem where adding a border that shows on hover of a nav link would add a few pixels to the overall height and create a janky wobble effect. Border-box box-sizing wasn't doing the trick but inset borders have saved the day and I can officially say I like my nav links, hovers and all. 
 
 Sun Jan 13, 2019
 - So I rebuilt the nav and it's sooo much better. Like night and day. I didn't have to do as much styling this time around either. I also converted the colors in my css over to variables (i.e. custom properties) for easier management in the future. 

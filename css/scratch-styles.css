@@ -55,6 +55,7 @@ p {
     border: none;
     margin-bottom: 0;
     border-radius: 0px;
+    box-sizing: border-box;
     
 /*
     & .navbar-brand {
@@ -80,14 +81,8 @@ p {
 
 .active a {
     color: var(--peachy) !important;
-/*    text-decoration: underline;*/
     background-color: var(--birdorange) !important;
-    box-shadow: 0px -5px red;
-/*
-    border-bottom: dotted 5px var(--peachy);
-    border-bottom-width: 10%;
-    border-spacing: 30px;
-*/
+    border-bottom: inset 5px var(--peachy);
 }
 
 .navbar-default .navbar-nav li.active:after {
@@ -95,13 +90,10 @@ p {
 }
 
 .active a:hover {
-    border-bottom: inset 5px var(--egg); 
+    background-color: var(--peachy) !important;
+    color: var(--birdorange) !important;
+    border-bottom: inset 5px var(--peachy); 
     box-shadow: 0px 5px var(--birdorange);
-/*
-    color: white !important;
-    border-bottom: dashed 5px var(--bluegrandma);
-    border-bottom-width: 25%;
-*/
 }
 
 .jumbotron {
