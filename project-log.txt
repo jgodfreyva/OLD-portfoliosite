@@ -1,5 +1,7 @@
 Keeping Track of What I Did – 
 
+Mon Jan 14, 2019
+
 Sun Jan 13, 2019
 - So I rebuilt the nav and it's sooo much better. Like night and day. I didn't have to do as much styling this time around either. I also converted the colors in my css over to variables (i.e. custom properties) for easier management in the future. 
 

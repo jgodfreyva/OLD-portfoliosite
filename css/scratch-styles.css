@@ -82,14 +82,26 @@ p {
     color: var(--peachy) !important;
 /*    text-decoration: underline;*/
     background-color: var(--birdorange) !important;
+    box-shadow: 0px -5px red;
+/*
     border-bottom: dotted 5px var(--peachy);
     border-bottom-width: 10%;
+    border-spacing: 30px;
+*/
+}
+
+.navbar-default .navbar-nav li.active:after {
+
 }
 
 .active a:hover {
+    border-bottom: inset 5px var(--egg); 
+    box-shadow: 0px 5px var(--birdorange);
+/*
     color: white !important;
     border-bottom: dashed 5px var(--bluegrandma);
     border-bottom-width: 25%;
+*/
 }
 
 .jumbotron {
