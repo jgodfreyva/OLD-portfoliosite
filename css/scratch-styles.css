@@ -50,21 +50,16 @@ p {
     color: var(--denim);
 }
 
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ START NAV STYLES ~~~~~~~~~~~~~~~~~~~~ */
+
 .navbar-default {
     background-color: var(--birdorange);
     border: none;
     margin-bottom: 0;
     border-radius: 0px;
     box-sizing: border-box;
-    
-/*
-    & .navbar-brand {
-        display: inline-block;
-        background-color: #FC5129;
-        position: relative;
-        width: 40px;
-    }
-*/
 }
 
 .navbar-default .navbar-brand {
@@ -99,6 +94,22 @@ p {
     border-bottom: inset 5px var(--peachy); 
     box-shadow: 0px 5px var(--birdorange);
 }
+
+.navbar-default .navbar-toggle {
+    border: solid 2px white;
+    background-color: var(--peachy);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--birdorange);
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: var(--bluegrandma);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ END NAV STYLES ~~~~~~~~~~~~~~~~~~~~ */
 
 .jumbotron {
     height: 70vh;
