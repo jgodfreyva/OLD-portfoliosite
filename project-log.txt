@@ -2,6 +2,8 @@ Keeping Track of What I Did –
 
 Sun Jan 20, 2019
 - Tried transferring my nav code into a partial and run that using sinatra. It turned into more of a struggle than I bargained for and it's not absolutely necessary at this moment so I switched gears. 
+- Added styling to the mobile nav menu
+- Added a media query to scale the H1 sizing down for mobile and few other small things to improve mobile experience
 
 Mon Jan 14, 2019
 - Fixed some typos, removed a superfluous class
