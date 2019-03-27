@@ -197,3 +197,34 @@ p {
     font-style: italic;   
 }
 
+
+
+
+.footer {
+/*    position: relative;*/
+}
+footer .madebyme {
+    display: inline-block;
+}
+
+footer .madebyme p {
+    margin-bottom: 5px;
+}
+
+footer .madebyme a {
+    background-color: var(--peachy);
+    color: var(--denim);
+    padding: 2px 15px;
+}
+
+footer .madebyme a:hover {
+    text-decoration: none;
+    border-bottom: solid 5px var(--birdorange);
+    font-weight: 400;
+}
+
+footer .copyright {
+/*    display: inline-block;*/
+/*    position: relative;*/
+    float: right;
+}
