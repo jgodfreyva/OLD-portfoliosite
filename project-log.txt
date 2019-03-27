@@ -4,6 +4,7 @@ Tue Mar 26, 2019
 - Woah, it's been a while. I got sidetracked with life and day job things for a few weeks there.
 -Anyways, today I started messing with the styles for the design projects on the home page. It's starting to come together. Some pretty sweet style if I may say so myself.
 - Had forgotten how to make jump links so that was a good refresher. And I learned about the css scroll-behavior property – that was an exciting find!
+- Added some follow-along details to the footer. 
 
 Sun Jan 20, 2019
 - Tried transferring my nav code into a partial and run that using sinatra. It turned into more of a struggle than I bargained for and it's not absolutely necessary at this moment so I switched gears. 
