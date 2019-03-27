@@ -5,6 +5,10 @@
     --bluegrandma: #475aa5;
     --denim: #344279;
 }
+
+html {
+    scroll-behavior: smooth;
+}
     
 body { 
     padding-top: 0px; 
@@ -135,7 +139,33 @@ p {
 }
 
 .project {
-    padding: 60px 40px; 
+    padding: 60px 40px;
+}
+
+.project .ping {
+    color: var(--birdorange);
+    font-weight: 600;
+}
+
+.project .blurb {
+    padding-bottom: 10px;
+}
+
+.project .btn {
+    background-color: var(--peachy);
+    color: var(--birdorange);
+    border: solid 2px red;
+    width: 40%;
+    font-size: 18px;
+}
+
+.project .btn:hover {
+    background-color: var(--denim);
+    color: var(--egg);
+/*    box-shadow: -2px -2px var(--birdorange);*/
+    box-shadow: 8px 8px var(--peachy);
+    border: solid 2px var(--birdorange);
+    cursor: e-resize;
 }
 
 /* TIL Today I Learned Page */
