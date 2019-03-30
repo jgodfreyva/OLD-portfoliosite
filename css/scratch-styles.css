@@ -6,9 +6,11 @@
     --denim: #344279;
 }
 
+/*
 html {
-/*    scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
+*/
     
 body { 
     padding-top: 0px; 
@@ -144,10 +146,13 @@ p {
 
 .project-card {
     background-color: white;
+    padding: 30px;
+    border: solid 5px var(--bluegrandma); 
+    border-radius: 0px 15px;
 }
 
 .project-card img {
-    border-bottom: 5px solid var(--bluegrandma)
+    border-bottom: solid 5px var(--bluegrandma);
 }
 
 .project .ping {
@@ -164,6 +169,7 @@ p {
     color: var(--birdorange);
     border: solid 2px red;
     width: 40%;
+    min-width: 150px;
     font-size: 18px;
 }
 
