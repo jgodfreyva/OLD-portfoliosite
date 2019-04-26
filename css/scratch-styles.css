@@ -155,6 +155,12 @@ p {
     border-bottom: solid 5px var(--bluegrandma);
 }
 
+.browser img {
+    border: solid 5px var(--egg);
+    border-top: solid 10px var(--bluegrandma);
+    border-radius: 10px 10px 2px 2px;
+}
+
 .project .ping {
     color: var(--birdorange);
     font-weight: 600;
