@@ -1,8 +1,11 @@
 Keeping Track of What I Did – 
 
+Thu Apr 25, 2019
+- Happy April 25th :) Made some text changes and tried out a new image but the white img on white background does not look good. Probably will swap that out.
+
 Tue Mar 26, 2019
 - Woah, it's been a while. I got sidetracked with life and day job things for a few weeks there.
--Anyways, today I started messing with the styles for the design projects on the home page. It's starting to come together. Some pretty sweet style if I may say so myself.
+-Anyways, today I started messing with the styles for the design projects on the home page. It's starting to come together. Pretty stylin' if I may say so myself.
 - Had forgotten how to make jump links so that was a good refresher. And I learned about the css scroll-behavior property – that was an exciting find!
 - Added some follow-along details to the footer. 
 
