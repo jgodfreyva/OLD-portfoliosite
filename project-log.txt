@@ -1,5 +1,10 @@
 Keeping Track of What I Did – 
 
+Thu Aug 22, 2019
+- Jeez almost 4 months since I last worked on this! Wedding planning and leaving my job took over. But I'm back!
+- Updated stroke style for behind card img - it felt a little blah and now the strokes add depth and flair, if you will.
+- Introduced a new year format for the project cards.
+
 Thu Apr 25, 2019
 - Happy April 25th :) Made some text changes and tried out a new image for a project-card but the white img on white background does not look good. Probably will swap that out.
 
