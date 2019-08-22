@@ -153,6 +153,8 @@ p {
 
 .project-card img {
     border-bottom: solid 5px var(--bluegrandma);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 3px 5px 0 0 var(--egg), -3px -3px 0 0 var(--egg);
 }
 
 .browser img {
