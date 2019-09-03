@@ -50,14 +50,6 @@ p {
     color: var(--denim);
 }
 
-.til-date {
-    background-color: white;
-    padding: 5px 20px 5px 80px;
-    margin-left: -80px;
-    border-radius: 0px 15px 15px 0px;
-    line-height: 200%;
-}
-
 @media (max-width: 767px) {
     .hero h1 {
         font-size: 4em;
@@ -192,17 +184,15 @@ p {
 
 /* TIL Today I Learned Page */
 
-.til {
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
 
 .til h1 {
-        color: var(--denim);
+    color: var(--denim);
+    line-height: 100px;
 }
 
 .well {
-    padding: 30px 80px 50px;
+    padding: 20px 30px;
+/*    padding: 30px 80px 50px;*/
     background-color: #fdd69270;
     border: solid 3px #475aa5;
     border-radius: 10px;
@@ -219,6 +209,40 @@ p {
     font-style: italic;   
 }
 
+.til-date {
+    background-color: white;
+    padding: 5px 20px 5px 30px;
+    margin-left: -30px;
+    border-radius: 0px 15px 15px 0px;
+    line-height: 200%;
+}
+
+.til-text h4 {
+    color: var(--denim);
+}
+
+.til-media {
+    margin: 20px 0 10px 0;
+}
+
+@media (min-width: 768px) {
+    .til {
+        padding-top: 60px; 
+        padding-bottom: 30px; 
+    }
+/*
+    
+    .til-text {
+        width: 40%;
+        float: left;
+    }
+    
+*/
+    .til-media {
+        max-width: 50%;
+        height: auto;
+    }
+}
 
 
 

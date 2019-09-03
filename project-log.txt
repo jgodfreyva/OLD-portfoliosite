@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Mon Sep 2, 2019
+- Hiya! Updated the Today I Learned page: edited the first entry and changed the font styles.
+- I added a spot for a video or image for each entry. Making the media slot responsive was easy until I tried to get fancy on tablet and up and put the video side-by-side with the text. My columns are out of sort or something. Will pick back up on this asap. 
+
 Thu Aug 22, 2019
 - Jeez almost 4 months since I last worked on this! Wedding planning and leaving my job took over. But I'm back!
 - Updated stroke style for behind card img - it felt a little blah and now the strokes add depth and flair, if you will.
