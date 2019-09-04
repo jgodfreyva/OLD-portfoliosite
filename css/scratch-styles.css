@@ -196,6 +196,9 @@ p {
     background-color: #fdd69270;
     border: solid 3px #475aa5;
     border-radius: 10px;
+/*    overflow: scroll;*/
+    display: flex;
+    flex-direction: row;
 }
 
 .well a {
@@ -222,7 +225,17 @@ p {
 }
 
 .til-media {
-    margin: 20px 0 10px 0;
+    margin: 30px 0 10px 0;
+}
+
+.til-media iframe {
+/*    position: absolute;*/
+    max-height: 400px;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 380px;
+    margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
@@ -230,17 +243,11 @@ p {
         padding-top: 60px; 
         padding-bottom: 30px; 
     }
-/*
-    
-    .til-text {
-        width: 40%;
-        float: left;
-    }
-    
-*/
+}
+
+@media (min-width: 992px) {
     .til-media {
-        max-width: 50%;
-        height: auto;
+        margin: 0 0 10px 0;
     }
 }
 
