@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Wed Sep 4, 2019
+- I finally got the Today I Learned entry looking great! Took a while there... I had trouble with the video height driving the container height, making the entry too tall. I used flexbox which helped a little, but there was still a ton of padding underneath the iframe that had the video. The culprit turned out to be Bootstrap's <span style="color:red;">.embed-responsive-16by9</span> class.  
+
 Mon Sep 2, 2019
 - Hiya! Updated the Today I Learned page: edited the first entry and changed the font styles.
 - I added a spot for a video or image for each entry. Making the media slot responsive was easy until I tried to get fancy on tablet and up and put the video side-by-side with the text. My columns are out of sort or something. Will pick back up on this asap. 
