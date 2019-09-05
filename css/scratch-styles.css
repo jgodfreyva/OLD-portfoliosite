@@ -184,6 +184,13 @@ p {
 
 /* TIL Today I Learned Page */
 
+.container-fluid {
+    margin: 10px;
+}
+
+.til .hero {
+    padding-top: 0px;
+}
 
 .til h1 {
     color: var(--denim);
@@ -209,7 +216,10 @@ p {
 
 .well a:hover {
     text-decoration: none;
-    font-style: italic;   
+    font-style: italic;  
+    color: var(--peachy);
+    background-color: var(--birdorange);
+    padding: 5px 0px 0px 0px;
 }
 
 .til-date {
@@ -225,7 +235,7 @@ p {
 }
 
 .til-media {
-    margin: 30px 0 10px 0;
+    margin: 30px 0 0 0;
 }
 
 .til-media iframe {
@@ -247,7 +257,7 @@ p {
 
 @media (min-width: 992px) {
     .til-media {
-        margin: 0 0 10px 0;
+        margin: 0;
     }
 }
 
