@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Thu Sep 5, 2019
+- Oof, I tried to make the nav hover pattern a little nicer, was messing with margin/padding and border stuff but I kept running into issues and alas am now frustrated. Luckily I foresaw the tricky bits so I branched and have now hopped off that branch.
+
 Wed Sep 4, 2019
 - I finally got the Today I Learned entry looking great! Took a while there... I had trouble with the video height driving the container height, making the entry too tall. I used flexbox which helped a little, but there was still a ton of padding underneath the iframe that had the video. The culprit turned out to be Bootstrap's "embed-responsive-16by9" class.
 - Responsively, things are looking good but I need to test it on more than Chrome.
