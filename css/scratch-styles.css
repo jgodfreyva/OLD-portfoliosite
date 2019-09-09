@@ -64,13 +64,18 @@ p {
 .navbar-default {
     background-color: var(--birdorange);
     border: none;
-    margin-bottom: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     border-radius: 0px;
     box-sizing: border-box;
 }
 
 .navbar-default .navbar-brand {
     color: white;
+}
+
+nav .container-fluid {
+    margin: 5px 10px 0px 10px;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -85,7 +90,7 @@ p {
 .navbar-default .navbar-nav li a:hover {
     background-color: var(--peachy) !important;
     color: var(--birdorange);
-    border-bottom: inset 5px var(--peachy); 
+    border-bottom: inset 5px var(--birdorange); 
     box-shadow: 0px 5px var(--birdorange);
 }
 
@@ -93,12 +98,13 @@ p {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
     border-bottom: inset 5px var(--peachy);
+    box-shadow: 0px 5px var(--peachy);
 }
 
 .active a:hover {
     background-color: var(--peachy) !important;
     color: var(--birdorange) !important;
-    border-bottom: inset 5px var(--peachy); 
+    border-bottom: inset 5px var(--birdorange); 
     box-shadow: 0px 5px var(--birdorange);
 }
 
