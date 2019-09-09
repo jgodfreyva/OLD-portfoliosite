@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Sun Sep 8, 2019
+- Got the nav hover pattern to a nice spot!
+
 Thu Sep 5, 2019
 - Oof, I tried to make the nav hover pattern a little nicer, was messing with margin/padding and border stuff but I kept running into issues and alas am now frustrated. Luckily I foresaw the tricky bits so I branched and have now hopped off that branch.
 
