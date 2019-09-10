@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Mon Sep 9, 2019
+- Added a sweet lil box-shadow to my nav and it really sets it off. 
+- Investigated why my nav home button's hover looks different than all the other nav links. I determined that it's pulling from different classes than the other nav links. However, I haven't cracked matching them up just yet.
+
 Sun Sep 8, 2019
 - Got the nav hover pattern to a nice spot!
 
