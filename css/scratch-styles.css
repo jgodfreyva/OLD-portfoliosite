@@ -149,10 +149,6 @@ nav .container-fluid {
     }
 }
 
-.btnprimary {
-    color: var(--egg);
-}
-
 .project {
     padding: 60px 30px;
 }
@@ -189,17 +185,18 @@ nav .container-fluid {
     background-color: var(--peachy);
     color: var(--birdorange);
     border: solid 2px red;
-    width: 40%;
+    width: 30%;
     min-width: 150px;
     font-size: 18px;
+    line-height: 32px;
 }
 
 .project .btn:hover {
-    background-color: var(--denim);
-    color: var(--egg);
+    background-color: var(--bluegrandma);
+    color: white;
 /*    box-shadow: -2px -2px var(--birdorange);*/
     box-shadow: 8px 8px var(--peachy);
-    border: solid 2px var(--birdorange);
+    border: solid 2px var(--bluegrandma);
     cursor: e-resize;
 }
 

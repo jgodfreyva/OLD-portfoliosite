@@ -21,7 +21,7 @@ body {
     background-color: #FDE9C5;
     border: none;
     color: #FC5129;
-    box-shadow: 2px 2px 2px #FC512980;
+    box-shadow: 3px 3px 0px var(--peachy);
 }
 
 .btn:hover {
@@ -30,6 +30,13 @@ body {
 }
 
 .btn-primary {
-    box-shadow: 5px 5px 2px #B23317;
+    box-shadow: 5px 5px 0px var(--egg);
+    border: solid 2px var(--birdorange);
+}
+
+.btn-primary:hover {
+    box-shadow: 8px 8px var(--peachy);
+    border: solid 2px var(--bluegrandma);
+    cursor: e-resize;
 }
 
