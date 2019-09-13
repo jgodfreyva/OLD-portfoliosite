@@ -3,6 +3,7 @@ Keeping Track of What I Did –
 
 Thu Sep 12, 2019
 - I now have 3 button styles (a nav link and a primary button on light/dark backgrounds) but I had done each at a separate time so now I'm making them more complementary. Gotta get that interaction pattern tight, ya know?
+- Practiced branching, making a PR, merging, and pulling hooray
 
 Mon Sep 9, 2019
 - Added a sweet lil box-shadow to my nav and it really sets it off. 
