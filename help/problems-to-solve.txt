@@ -1,0 +1,23 @@
+
+
+Need to Fix:
+
+09.17.19
+
+Nav - removed the forced “active” class on a nav <li> and that changes the height of the nav so we need to add some height or something 
+
+
+
+——————————————————————— 
+
+***All below are resolved as far as I know***
+
+01.03.19
+
+Nav – losing links on mobile and no menu button at all?
+
+Responsiveness on project columns? 
+
+I feel like I’m not using the & css stuff right? So I’m trying to avoid using it and thus making a mess of the css.
+
+And then big thing – What’s the best way to do TIL posts?

@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Tue Sep 17, 2019
+- Made new html files for the About and Contact pages
+- When transferring over the nav to the new pages, I discovered a bug with the nav active link. The inset bottom border was forcing a height difference so I finagled that by having a hidden inset border the same color of the background.
 
 Thu Sep 12, 2019
 - I now have 3 button styles (a nav link and a primary button on light/dark backgrounds) but I had done each at a separate time so now I'm making them more complementary. Gotta get that interaction pattern tight, ya know?

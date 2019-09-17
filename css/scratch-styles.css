@@ -93,20 +93,14 @@ nav .container-fluid {
 
 .navbar-default .navbar-nav li a {
     color: white;
+    border-bottom: inset 5px var(--birdorange);
 }
 
 .navbar-default .navbar-nav li a:hover {
 /*    background-color: var(--peachy) !important;*/
     color: var(--peachy);
-    border-bottom: inset 5px var(--bluegrandma); 
+    border-bottom: inset 5px var(--bluegrandma) !important; 
     box-shadow: 0px 5px var(--bluegrandma);
-}
-
-.active a {
-    color: var(--peachy) !important;
-    background-color: var(--birdorange) !important;
-    border-bottom: inset 5px var(--peachy);
-    box-shadow: 0px 5px var(--peachy);
 }
 
 .active a:hover {
@@ -114,6 +108,13 @@ nav .container-fluid {
     color: white !important;
     border-bottom: inset 5px var(--bluegrandma); 
     box-shadow: 0px 5px var(--bluegrandma);
+}
+
+.active a {
+    color: var(--peachy) !important;
+    background-color: var(--birdorange) !important;
+    border-bottom: inset 5px var(--peachy) !important;
+    box-shadow: 0px 5px var(--peachy);
 }
 
 .navbar-default .navbar-toggle {
