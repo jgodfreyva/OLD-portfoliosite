@@ -71,29 +71,30 @@ p {
     box-shadow: 0px 2.5px var(--peachy);
 }
 
+nav .container-fluid {
+    margin: 5px 10px 0px 10px;
+}
+
 .navbar-default .navbar-brand {
     color: white;
     line-height: 20px;
 }
 
-nav .container-fluid {
-    margin: 5px 10px 0px 10px;
-}
-
 .navbar-default .navbar-brand:hover {
+/*    NEED TO WORK THIS */
 /*    background-color: var(--peachy) !important;*/
     color: var(--peachy);
     border-bottom: inset 5px var(--bluegrandma); 
     box-shadow: 0px 5px var(--bluegrandma);
 }
 
-.navbar-default .navbar-brand:focus {
-    color: white;
-}
-
 .navbar-default .navbar-nav li a {
     color: white;
     border-bottom: inset 5px var(--birdorange);
+}
+
+.navbar-default .navbar-nav li a:visited {
+    color: white;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -103,14 +104,18 @@ nav .container-fluid {
     box-shadow: 0px 5px var(--bluegrandma);
 }
 
-.active a:hover {
+.navbar-default .navbar-nav li a:active {
+    color: var(--peachy);
+}
+
+.currentpage a:hover {
 /*    background-color: var(--peachy) !important;*/
     color: white !important;
     border-bottom: inset 5px var(--bluegrandma); 
     box-shadow: 0px 5px var(--bluegrandma);
 }
 
-.active a {
+.currentpage a {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
     border-bottom: inset 5px var(--peachy) !important;
