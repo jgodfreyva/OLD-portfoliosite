@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 7em;
     padding-bottom: 10px;
     color: var(--denim);
     line-height: 115%;
@@ -28,7 +28,6 @@ h1 {
 
 .hero h1 {
     color: var(--peachy);
-    font-size: 7em;
 }
 
 h2 {
