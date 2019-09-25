@@ -19,15 +19,15 @@ body {
     font-family: Futura;
 }
 
-.hero h1 {
+h1 {
     font-size: 6em;
-    color: var(--peachy);
     padding-bottom: 10px;
-}
-
-.page-title h1 {
     color: var(--denim);
     line-height: 100px;
+}
+
+.hero h1 {
+    color: var(--peachy);
 }
 
 h2 {
@@ -56,9 +56,8 @@ p {
 }
 
 @media (max-width: 767px) {
-    .hero h1 {
+    h1 {
         font-size: 5em;
-/*        color: var(--peachy);*/
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -301,6 +300,10 @@ nav .container-fluid {
     border: solid 5px white;
     box-shadow: 8px 8px var(--white);
     margin-bottom: 30px;
+}
+
+.new-section {
+    background-color: white;
 }
 
 
