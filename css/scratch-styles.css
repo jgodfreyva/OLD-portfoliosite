@@ -23,32 +23,41 @@ h1 {
     font-size: 6em;
     padding-bottom: 10px;
     color: var(--denim);
-    line-height: 100px;
+    line-height: 115%;
 }
 
 .hero h1 {
     color: var(--peachy);
+    font-size: 7em;
 }
 
 h2 {
     color: var(--denim);
+    font-size: 2.2em;
 }
 
 h3 {
     color: var(--denim);
+    font-size: 1.5em;
     line-height: 140%;
     margin-top: 15px;
 }
 
 h4 {
     line-height: 150%;
-    font-size: 18px;
-    color: var(--peachy);
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+    color: var(--denim);
 }
 
 h6 {
-    font-size: 15px;
-    color: var(--bluegrandma);
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 5px;
 }
 
 p {
@@ -61,6 +70,13 @@ p {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    
+    .hero h1 {
+        font-size: 5em;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
     p {
