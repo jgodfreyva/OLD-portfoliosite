@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Wed Sep 25, 2019
+- Over the past couple days I worked out that About page image bug. It was a stupid mistake! I used href="" instead of src="" in the <img> tag, ha. What a bugger.
+- Today I'm back at it in full force. Cleaned up the fontstack, improved the responsive layout on the About page.
+
 Tue Sep 17, 2019
 - Made new html files for the About and Contact pages
 - When transferring over the nav to the new pages, I discovered a bug with the nav active link. The inset bottom border was forcing a height difference so I finagled that by having a hidden inset border the same color of the background.
