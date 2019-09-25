@@ -198,7 +198,7 @@ nav .container-fluid {
     border-radius: 10px 10px 2px 2px;
 }
 
-.project .ping {
+.ping {
     color: var(--birdorange);
     font-weight: 600;
 }
@@ -309,8 +309,29 @@ nav .container-fluid {
     border-bottom: solid 10px var(--peachy);
 }
 
+.case-blurb {
+    background-color: white;
+    margin: 30px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
 
 
+
+@media (max-width: 768px) {
+    .case-header {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .case-header h1 {
+        padding-bottom: 0px;
+    }
+    
+    .case-blurb {
+        
+    }
+}
 
 
 
