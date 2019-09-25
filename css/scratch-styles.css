@@ -58,6 +58,7 @@ h6 {
     font-weight: 700;
     padding-top: 5px;
     color: var(--denim);
+    line-height: 150%;
 }
 
 p {
@@ -312,11 +313,14 @@ nav .container-fluid {
 .case-blurb {
     background-color: white;
     margin: 30px 0px;
-    padding: 0px 10px;
+    padding: 2px 15px;
     border-radius: 10px;
 }
 
-
+.case-blurb-title {
+    color: var(--birdorange);
+    margin-bottom: -10px;
+}
 
 @media (max-width: 768px) {
     .case-header {
