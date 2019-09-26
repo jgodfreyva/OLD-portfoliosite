@@ -310,6 +310,7 @@ nav .container-fluid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .case-blurb {
@@ -318,7 +319,7 @@ nav .container-fluid {
     padding: 2px 15px;
     border-radius: 10px;
     min-height: 150px;
-    max-width: 400px;
+    width: 400px;
 }
 
 .case-blurb-title {
@@ -330,7 +331,6 @@ nav .container-fluid {
     max-width: 400px;
     padding: 0;
     margin-top: 10px;
-    margin-bottom: 30px;
     border: solid 3px white;
     border-radius: 10px;
 }
@@ -342,7 +342,18 @@ nav .container-fluid {
 
 .case-background {
     background-color: var(--denim);
-    min-height: 300px;
+    min-height: 600px;
+    padding: 20px;
+}
+
+.case-background h2 {
+    color: var(--peachy);
+}
+
+.case-background p {
+    color: var(--egg);
+    padding: 20px 0;
+    font-size: 1.1em;
 }
 
 
