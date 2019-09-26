@@ -308,19 +308,43 @@ nav .container-fluid {
 
 .case-header {
     border-bottom: solid 10px var(--peachy);
+    margin-bottom: 20px;
+}
+
+.blurb-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .case-blurb {
     background-color: white;
-    margin: 30px 0px;
+    margin: 10px 10px;
     padding: 2px 15px;
     border-radius: 10px;
+    min-height: 150px;
+    max-width: 400px;
 }
 
 .case-blurb-title {
     color: var(--birdorange);
     margin-bottom: -10px;
 }
+
+.case-blurb-media {
+    max-width: 400px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.case-blurb-media img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 
 @media (max-width: 768px) {
     .case-header {
@@ -333,7 +357,7 @@ nav .container-fluid {
     }
     
     .case-blurb {
-        
+        float: left;
     }
 }
 
