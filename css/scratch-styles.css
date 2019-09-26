@@ -356,6 +356,23 @@ nav .container-fluid {
     font-size: 1.1em;
 }
 
+.case-background img {
+    width: 100%;
+}
+
+.case-background hr {
+    width: 50px;
+    float: left; 
+    margin-bottom: 0px;
+    border: solid 2px var(--peachy);
+}
+
+.media-caption {
+    float: left;
+    color: white;
+/*    padding-top: 20px;*/
+}
+
 
 @media (max-width: 768px) {
     .case-header {
