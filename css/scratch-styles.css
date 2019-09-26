@@ -229,10 +229,6 @@ nav .container-fluid {
 
 /* ~~~~~~~~~~~~~~~~ TIL Today I Learned Page ~~~~~~~~~~~~~~~ */
 
-.container-fluid {
-    margin: 10px;
-}
-
 .til .hero {
     padding-top: 0px;
 }
@@ -240,18 +236,16 @@ nav .container-fluid {
 
 .well {
     padding: 20px 30px;
-/*    padding: 30px 80px 50px;*/
+    margin: 10px;
     background-color: #fdd69270;
     border: solid 3px #475aa5;
     border-radius: 10px;
-/*    overflow: scroll;*/
     display: flex;
     flex-direction: row;
 }
 
 .well a {
     color: var(--birdorange);
-/*    text-decoration: underline;*/
     border-bottom: dashed 3px;
 }
 
@@ -337,13 +331,19 @@ nav .container-fluid {
     padding: 0;
     margin-top: 10px;
     margin-bottom: 30px;
+    border: solid 3px white;
+    border-radius: 10px;
 }
 
 .case-blurb-media img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
+.case-background {
+    background-color: var(--denim);
+    min-height: 300px;
+}
 
 
 @media (max-width: 768px) {
