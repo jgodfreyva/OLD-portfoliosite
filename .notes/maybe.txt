@@ -1,0 +1,2 @@
+Case study page
+- Instead of doing “ – Website Redesign – 2018 – “ in the header, make it a short sentence  like “A Website Redesign I undertook in 2018 as Lead UX Designer”

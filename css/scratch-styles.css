@@ -303,6 +303,7 @@ nav .container-fluid {
 .case-header {
     border-bottom: solid 10px var(--peachy);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .blurb-section {
@@ -364,7 +365,8 @@ nav .container-fluid {
 }
 
 .case-background img {
-    width: 100%;
+    width: 110%;
+    margin: 0 -20px -10px;
 }
 
 .case-background hr {
