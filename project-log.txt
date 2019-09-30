@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Mon Sep 30, 2019
+- Lately I've been working on my case study page. I'm starting with generic content and just making sure I have all the pieces so I can customize each case study as needed.
+- Learned a really cool trick today on full-width images in Bootstrap. I had been having trouble getting an img to go completely full-width inside a div with the container-fluid class because of its built-in padding. But I discovered how to use viewport width and some tricky left positioning to make an img seamlessly full-width. It's responsive, too!
+
 Wed Sep 25, 2019
 - Over the past couple days I worked out that About page image bug. It was a stupid mistake! I used href="" instead of src="" in the <img> tag, ha. What a bugger.
 - Today I'm back at it in full force. Cleaned up the fontstack, improved the responsive layout on the About page.
@@ -7,7 +11,7 @@ Wed Sep 25, 2019
 Tue Sep 17, 2019
 - Made new html files for the About and Contact pages
 - When transferring over the nav to the new pages, I discovered a bug with the nav active link. The inset bottom border was forcing a height difference so I finagled that by having a hidden inset border the same color of the background.
-- Updated my name! I'm now Jenna Godfrey Fairlo hehe.
+- Updated my name! I'm now Jenna Godfrey Fairlo hooray.
 - Tried fixing the stupid bug on the home nav link hover but wasn't getting anywhere other than frustration. Moving on and coming back to that one.
 - Started adding content to the About page.
 - Ran into a bug where I added a placeholder img for my headshot on the About page but it isn't displaying for some reason. Still investigating why that is.

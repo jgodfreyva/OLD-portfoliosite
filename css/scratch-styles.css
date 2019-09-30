@@ -414,7 +414,12 @@ nav .container-fluid {
     padding-top: 0;
 }
 
-
+.case-details img {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
 
 @media (max-width: 768px) {
     .case-header {
