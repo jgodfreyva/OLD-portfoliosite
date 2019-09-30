@@ -53,7 +53,7 @@ h5 {
 }
 
 h6 {
-    font-size: .7em;
+    font-size: .8em;
     text-transform: uppercase;
     font-weight: 700;
     padding-top: 5px;
@@ -384,10 +384,14 @@ nav .container-fluid {
 /*    padding-top: 20px;*/
 }
 
+.case-details {
+    margin-top: 30px;
+}
+
 .case-details .stat-highlight {
     background-color: white;
     display: flex;
-    margin: 20px 0;
+    margin: 30px 0;
     border-radius: 10px;
     border: solid 5px var(--denim);
 /*    padding: 20px;*/
@@ -407,7 +411,9 @@ nav .container-fluid {
 .case-details .stat-highlight h6 {
     margin: auto;
     padding-right: 30px;
+    padding-top: 0;
 }
+
 
 
 @media (max-width: 768px) {
