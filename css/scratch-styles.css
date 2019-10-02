@@ -354,6 +354,7 @@ nav .container-fluid {
     background-color: var(--denim);
     min-height: 600px;
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .case-background h2 {
@@ -367,8 +368,10 @@ nav .container-fluid {
 }
 
 .case-background img {
-    width: 110%;
-    margin: 0 -20px -10px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
 }
 
 .case-background hr {
