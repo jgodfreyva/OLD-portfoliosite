@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Thu Oct 3, 2019
+- Got the case study mobile page to a good place
+- Started trying to bring in Vue.js so I can create components... right now I'm repeating way too much code. But so far this has been unsuccessful. I'm still very much a newbie in JavaScript and all the terminology confuses me and then I get frustrated with it (insert sad face). Until next time, Vue.
+
 Mon Sep 30, 2019
 - Lately I've been working on my case study page. I'm starting with generic content and just making sure I have all the pieces so I can customize each case study as needed.
 - Learned a really cool trick today on full-width images in Bootstrap. I had been having trouble getting an img to go completely full-width inside a div with the container-fluid class because of its built-in padding. But I discovered how to use viewport width and some tricky left positioning to make an img seamlessly full-width. It's responsive, too!
