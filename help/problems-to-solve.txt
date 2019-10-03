@@ -7,7 +7,7 @@ Need to Fix:
 
 “Design Projects” jump link isn’t jumping.
 
-[FIXED WITH HIDDEN INSET BORDER-BOTTOM ] 
+<<< FIXED WITH HIDDEN INSET BORDER-BOTTOM >>>
 Nav - removed the forced “active” class on a nav <li> and that changes the height of the nav so we need to add some height or something 
 
 

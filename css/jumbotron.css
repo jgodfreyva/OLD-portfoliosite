@@ -38,5 +38,6 @@ body {
     box-shadow: 8px 8px var(--peachy);
     border: solid 2px var(--bluegrandma);
     cursor: e-resize;
+    padding: 10px 16px;
 }
 
