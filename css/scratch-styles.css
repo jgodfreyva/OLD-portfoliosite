@@ -82,7 +82,7 @@ p {
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 5em;
+        font-size: 4.5em;
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -315,8 +315,13 @@ nav .container-fluid {
 /* ~~~~~~~~~~~~~~~~~~~~~ CASE STUDIES ~~~~~~~~~~~~~~~~~~~~ */
 
 .case-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-bottom: solid 10px var(--peachy);
     margin-bottom: 20px;
+    padding: 0 15px;
     text-align: center;
 }
 
@@ -488,6 +493,22 @@ nav .container-fluid {
     
     .case-blurb {
         float: left;
+    }
+    
+    .case-blurb-media {
+        margin: 10px;
+    }
+    
+    .case-end .more-cases .project-card {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .case-header {
+        min-height: 50vh;
+        padding: 0 10%;
     }
 }
 
