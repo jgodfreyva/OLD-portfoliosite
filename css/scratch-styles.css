@@ -188,13 +188,14 @@ nav .container-fluid {
     }
 }
 
-@media (min-width: 992px) {
-    .jumbotron {
-        min-height: 70vh;
-    }
-    
+@media (min-width: 992px) { 
     .hero {
         padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        min-height: 60vh;
     }
 }
 
@@ -401,7 +402,6 @@ nav .container-fluid {
 .media-caption {
     clear: left;
     color: white;
-/*    padding-top: 20px;*/
 }
 
 .case-details {
@@ -414,7 +414,6 @@ nav .container-fluid {
     margin: 30px 0;
     border-radius: 10px;
     border: solid 5px var(--denim);
-/*    padding: 20px;*/
 }
 
 .case-details .stat-highlight .stat-percent {
@@ -517,9 +516,34 @@ nav .container-fluid {
     .case-background img {
         padding: 0 50px 30px;
     }
+    
+    .case-details {
+        padding: 50px 50px 0;
+    }
+    
+    .case-details .stat-highlight {
+        max-width: 800px;
+    }
+    
+    .case-details img {
+        padding: 50px;
+        padding-bottom: 80px;
+    }
 }
 
-
+@media (min-width: 1200px) {
+    .case-details {
+        padding-bottom: 80px;
+    }
+    
+    .case-details img {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        left: 60px;
+        margin-left: 0;
+    }
+}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~~~~~~~ */
