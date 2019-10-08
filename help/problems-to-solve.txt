@@ -2,6 +2,17 @@
 
 Need to Fix:
 
+
+10.07.19
+
+On case study, the image container in the blurb is taller than the img and containers next to it.
+
+On case study, the project background image is slightly wider than the section container and is forcing the page to be wider than it should be (i.e. deathly horizontal scrolling) (fyi seems to only be on larger screens)
+
+
+
+——————————————————————— 
+
 09.17.19
 
 

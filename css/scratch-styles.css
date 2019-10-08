@@ -399,7 +399,7 @@ nav .container-fluid {
 }
 
 .media-caption {
-    float: left;
+    clear: left;
     color: white;
 /*    padding-top: 20px;*/
 }
@@ -423,7 +423,6 @@ nav .container-fluid {
 }
 
 .case-details .stat-highlight h1 {
-/*    color: white;*/
     float: left;
     padding: 0 30px 0 30px;
 }
@@ -509,6 +508,14 @@ nav .container-fluid {
     .case-header {
         min-height: 50vh;
         padding: 0 10%;
+    }
+    
+    .case-background {
+        padding: 30px 50px 10px;
+    }
+    
+    .case-background img {
+        padding: 0 50px 30px;
     }
 }
 
