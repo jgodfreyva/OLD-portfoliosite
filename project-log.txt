@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Tue Oct 8, 2019
+- Ugh things are no bueno today. I tried integrating Vue again, couldn't do it so changed branches, but didn't realize I was still including an insane number of node_module files in my commit. Then I had to revert the commit and lost a bunch of good changes that I had made cause I hadn't commited earlier. Rahhhh I'm so upset right now. 
+
 Thu Oct 3, 2019
 - Got the case study mobile page to a good place
 - Started trying to bring in Vue.js so I can create components... right now I'm repeating way too much code. But so far this has been unsuccessful. I'm still very much a newbie in JavaScript and all the terminology confuses me and then I get frustrated with it (insert sad face). Until next time, Vue.

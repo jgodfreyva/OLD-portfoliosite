@@ -289,7 +289,6 @@ nav .container-fluid {
 }
 
 .til-media iframe {
-/*    position: absolute;*/
     max-height: 400px;
 }
 
@@ -386,10 +385,7 @@ nav .container-fluid {
 }
 
 .case-background img {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
+    width: 100%;
 }
 
 .case-background hr {
@@ -433,10 +429,7 @@ nav .container-fluid {
 }
 
 .case-details img {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
+    width: 100%;
 }
 
 .case-end {
@@ -497,24 +490,44 @@ nav .container-fluid {
         margin: 10px;
     }
     
+    .case-background img {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        margin-left: -50vw;
+    }
+    
+    .case-details img {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        margin-left: -50vw;
+        padding-top: 30px;
+    }
+    
     .case-end .more-cases .project-card {
         margin-bottom: 30px;
         margin-top: 30px;
     }
 }
 
+@media (min-width: 768px) {
+    .case-background {
+        padding: 30px 50px 50px;
+    }
+    
+    
+    .case-details img {
+        width: 100%;
+        padding: 50px 0 100px;
+    }
+
+}
+
 @media (min-width: 992px) {
     .case-header {
         min-height: 50vh;
         padding: 0 10%;
-    }
-    
-    .case-background {
-        padding: 30px 50px 10px;
-    }
-    
-    .case-background img {
-        padding: 0 50px 30px;
     }
     
     .case-details {
@@ -524,26 +537,8 @@ nav .container-fluid {
     .case-details .stat-highlight {
         max-width: 800px;
     }
-    
-    .case-details img {
-        padding: 50px;
-        padding-bottom: 80px;
-    }
 }
 
-@media (min-width: 1200px) {
-    .case-details {
-        padding-bottom: 80px;
-    }
-    
-    .case-details img {
-        width: 100%;
-        padding: 0;
-        position: relative;
-        left: 60px;
-        margin-left: 0;
-    }
-}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~~~~~~~ */
