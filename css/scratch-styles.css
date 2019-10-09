@@ -434,7 +434,7 @@ nav .container-fluid {
 
 .case-end {
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0 0;
     text-align: center;
     background-color: var(--peachy);
 }
@@ -469,8 +469,6 @@ nav .container-fluid {
 .case-end .more-cases .project-card {
     text-align: left;
 }
-
-
 
 @media (max-width: 768px) {
     .case-header {
@@ -540,6 +538,12 @@ nav .container-fluid {
     }
 }
 
+@media (min-width: 1200px) {
+    .case-blurb-media {
+        margin-left: 10px;
+    }
+}
+
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~~~~~~~ */
@@ -571,8 +575,10 @@ footer {
     margin-bottom: 60px;
 }
 
-footer hr {
+hr.peachy-rule {
     border: solid 1.5px var(--peachy);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer .madebyme {
@@ -592,6 +598,11 @@ footer .madebyme p {
 @media (min-width: 768px) {
     footer .copyright {
         float: right;
+    }
+    
+    footer.container-fluid {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
