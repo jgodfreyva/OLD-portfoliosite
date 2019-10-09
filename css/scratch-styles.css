@@ -407,7 +407,7 @@ nav .container-fluid {
 .case-details .stat-highlight {
     background-color: white;
     display: flex;
-    margin: 30px 0;
+    margin: 20px 10px 20px 0;
     border-radius: 10px;
     border: solid 5px var(--denim);
 }
@@ -516,7 +516,6 @@ nav .container-fluid {
         padding: 30px 50px 50px;
     }
     
-    
     .case-details img {
         width: 100%;
         padding: 50px 0 100px;
@@ -535,7 +534,9 @@ nav .container-fluid {
     }
     
     .case-details .stat-highlight {
-        max-width: 800px;
+        max-width: 600px;
+        float: left;
+        margin: 0 20px 0 0;
     }
 }
 
