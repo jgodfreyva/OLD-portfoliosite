@@ -358,7 +358,7 @@ nav .container-fluid {
 .case-blurb-media {
     max-width: 400px;
     padding: 0;
-    margin: 10px;
+    margin-top: 10px;
     border: solid 3px white;
     border-radius: 10px;
 }
@@ -386,13 +386,10 @@ nav .container-fluid {
 }
 
 .case-background img {
-    width: 100%;
-/*
     width: 100vw;
     position: relative;
     left: 50%;
     margin-left: -50vw;
-*/
 }
 
 .case-background hr {
@@ -405,6 +402,10 @@ nav .container-fluid {
 .media-caption {
     clear: left;
     color: white;
+}
+
+.case-details {
+    margin-top: 30px;
 }
 
 .case-details .stat-highlight {
@@ -432,8 +433,10 @@ nav .container-fluid {
 }
 
 .case-details img {
-    width: 100%;
-    margin: auto;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
 }
 
 .case-end {
@@ -475,6 +478,7 @@ nav .container-fluid {
 }
 
 
+
 @media (max-width: 768px) {
     .case-header {
         text-align: center;
@@ -496,20 +500,6 @@ nav .container-fluid {
     .case-end .more-cases .project-card {
         margin-bottom: 30px;
         margin-top: 30px;
-    }
-}
-
-@media (max-width: 992px) {
-    .case-details {
-        margin-top: 30px;
-    }
-    
-    .case-details img {
-        width: 100vw;
-        position: relative;
-        left: 50%;
-        margin-left: -50vw;
-        margin-top: 50px;
     }
 }
 
@@ -536,7 +526,8 @@ nav .container-fluid {
     }
     
     .case-details img {
-        margin: 50px 0;
+        padding: 50px;
+        padding-bottom: 80px;
     }
 }
 
@@ -547,6 +538,10 @@ nav .container-fluid {
     
     .case-details img {
         width: 100%;
+        padding: 0;
+        position: relative;
+        left: 60px;
+        margin-left: 0;
     }
 }
 
