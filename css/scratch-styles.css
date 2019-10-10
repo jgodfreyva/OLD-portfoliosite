@@ -124,12 +124,15 @@ nav .container-fluid {
     border-bottom: none;
 }
 
+.navbar-brand {
+    height: auto;
+}
+
 .navbar-default .navbar-brand:hover {
-/*    NEED TO WORK THIS */
-/*    background-color: var(--peachy) !important;*/
     color: var(--peachy);
     border-bottom: inset 5px var(--bluegrandma); 
     box-shadow: 0px 5px var(--bluegrandma);
+    padding: 15px;
 }
 
 .navbar-default .navbar-nav li a {

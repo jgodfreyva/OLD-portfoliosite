@@ -22,16 +22,17 @@ On case study, the project background image is slightly wider than the section c
 09.17.19
 
 
+*** FIXED! ***
 “Design Projects” jump link isn’t jumping.
 
-<<< FIXED WITH HIDDEN INSET BORDER-BOTTOM >>>
+*** FIXED WITH HIDDEN INSET BORDER-BOTTOM ***
 Nav - removed the forced “active” class on a nav <li> and that changes the height of the nav so we need to add some height or something 
 
 
 
 ——————————————————————— 
 
-***All below are resolved as far as I know***
+*** ALL OF THE BELOW ARE RESOLVED ***
 
 01.03.19
 
