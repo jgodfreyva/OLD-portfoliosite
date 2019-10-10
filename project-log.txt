@@ -1,5 +1,11 @@
 Keeping Track of What I Did – 
 
+Thu Oct 10, 2019
+- I still have a ton of work to do but I feel like I can finally see the light at the end of the tunnel which is a great feeling. 
+- I fixed all the things I broke the other day, hooray.
+- Also learned that I wasn't correctly hyperlinking to my pages! I pushed my site "live" (not really) using Github Pages so that I could see what it feels like navigating around. However, none of my links were working. I was using <a href="/case.html" --- those slashes were what was messing it up. I removed all the slashes and voilà! Now they work.
+- I've also gotten my case study template to a good place which is exciting. I need to fix a few things on mobile but it's not too bad. Now I just need to write up the actual case studies!
+
 Tue Oct 8, 2019
 - Ugh things are no bueno today. I tried integrating Vue again, couldn't do it so changed branches, but didn't realize I was still including an insane number of node_module files in my commit. Then I had to revert the commit and lost a bunch of good changes that I had made cause I hadn't commited earlier. Rahhhh I'm so upset right now. 
 

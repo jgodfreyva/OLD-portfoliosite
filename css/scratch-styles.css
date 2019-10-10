@@ -233,7 +233,6 @@ nav .container-fluid {
 .project .btn:hover {
     background-color: var(--bluegrandma);
     color: white;
-/*    box-shadow: -2px -2px var(--birdorange);*/
     box-shadow: 8px 8px var(--peachy);
     border: solid 2px var(--bluegrandma);
     cursor: e-resize;
@@ -604,6 +603,7 @@ nav .container-fluid {
 /* ~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~ */
 
 footer {
+    margin-top: 30px;
     margin-bottom: 60px;
     clear: left;
 }

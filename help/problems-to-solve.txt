@@ -7,6 +7,8 @@ Need to Fix:
 
 The project cards on mobile are real narrow - will need to fix those before release.
 
+The circular headshot on the home page is slightly oval – for some reason it’s making the height of the img 10px less than the width… very strange. And using the same styling as the About page headshot (although that one is perfectly circular). 
+
 —————————————————
 
 10.07.19
