@@ -182,23 +182,6 @@ nav .container-fluid {
 
 /* ~~~~~~~~~~~~~~~~~~~~~ HOME PAGE AND PROJECTS ~~~~~~~~~~~~~~~~~~~~ */
 
-@media (min-width: 768px) {
-    .jumbotron h1 {
-        font-size: 6em;
-    }
-}
-
-@media (min-width: 992px) { 
-    .hero {
-        padding-top: 25px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        min-height: 60vh;
-    }
-}
-
 .hero h1 {
     color: var(--peachy);
 }
@@ -253,6 +236,44 @@ nav .container-fluid {
     border: solid 2px var(--bluegrandma);
     cursor: e-resize;
     padding: 6px 12px;
+}
+
+.introduce-yourself {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 50px 50px;
+}
+
+.introduce-yourself img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: solid 5px white;
+    box-shadow: 8px 8px var(--white);
+    margin: 20px auto;
+}
+
+.introduce-yourself p {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .jumbotron h1 {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 992px) { 
+    .hero {
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        min-height: 60vh;
+    }
 }
 
 /* ~~~~~~~~~~~~~~~~ TIL Today I Learned Page ~~~~~~~~~~~~~~~ */
@@ -573,12 +594,14 @@ nav .container-fluid {
 
 footer {
     margin-bottom: 60px;
+    clear: left;
 }
 
 hr.peachy-rule {
     border: solid 1.5px var(--peachy);
     margin-left: 20px;
     margin-right: 20px;
+    clear: left;
 }
 
 footer .madebyme {
