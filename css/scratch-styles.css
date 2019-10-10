@@ -26,7 +26,6 @@ a {
 
 a:hover {
     text-decoration: none;
-/*    font-style: italic;  */
     color: var(--peachy);
     background-color: var(--birdorange);
     padding: 5px 0px 0px 0px;
@@ -224,7 +223,7 @@ nav .container-fluid {
 .project .btn {
     background-color: var(--peachy);
     color: var(--birdorange);
-    border: solid 2px red;
+    border: solid 2px var(--birdorange);
     width: 30%;
     min-width: 150px;
     font-size: 18px;
@@ -260,6 +259,15 @@ nav .container-fluid {
 
 .introduce-yourself p {
     margin-bottom: 20px;
+}
+
+.introduce-yourself a {
+    max-width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 18px;
+    border: solid 2px var(--birdorange);
+    background-color: var(--peachy);
 }
 
 @media (min-width: 768px) {
