@@ -3,6 +3,12 @@
 Need to Fix:
 
 
+10.10.19
+
+The project cards on mobile are real narrow - will need to fix those before release.
+
+—————————————————
+
 10.07.19
 
 On case study, the image container in the blurb is taller than the img and containers next to it.
